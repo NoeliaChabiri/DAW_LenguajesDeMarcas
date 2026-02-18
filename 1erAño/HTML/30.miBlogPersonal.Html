@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Codificación de caracteres: UTF-8 soporta acentos y ñ -->
+    <meta charset="UTF-8">
+
+    <!--Metadatos que emulan cabeceras HTTP -->
+    <meta http-equiv="Cache-Control" content="no-cache"> <!-- Evita que el navegador guarde la página en caché -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- Tipo de contenido y codificación -->
+    <meta http-equiv="Refresh" content="30"> <!-- Recarga la página automáticamente cada 30 segundos -->
+
+    <!--Metadatos sobre la página -->
+    <meta name="description" content="Página de ejemplo de HTML con metadatos."> <!-- Descripción para buscadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace la página responsive -->
+    <meta name="author" content="Noelia Ana Chabiri"> <!-- Autor de la página -->
+    <meta name="robots" content="index, follow"> <!-- Permite que buscadores indexen y sigan los enlaces -->
+
+    <!--Título de la página -->
+    <title>Ejemplo de Hoja Externa</title> <!-- Texto que aparece en la pestaña del navegador -->
+
+    <!--Vincular hoja de estilos externa -->
+    <link rel="stylesheet" href="CSS/estilosMiBlog.css"> <!-- Aplica estilos desde un archivo CSS externo -->
+</head>
+
+<body>
+    <!--Contenido de la página -->
+
+    <header id="cabecera-principal"> <!--Cabecera -->
+
+        <h1>Mi Blog de Desarrollo Web</h1>
+        <h2>Aprendiendo CSS paso a paso</h2>
+        <p>Bienvenidos a mi espacio personal donde comparto mi progreso en el mundo del desarrollo web. Esta actividad
+            me permitirá afianzar los conocimientos adquiridos, repasar los conceptos clave de CSS y poner en práctica
+            mis habilidades para crear sitios web estructurados y profesionales</p>
+
+    </header>
+
+    <nav id="menu"></nav> <!--Menú de Navegador -->
+
+    <ul><!--Lista Ordenada-->
+        <l href="#">Inicio</li>
+        <li href="#">Artículos</li>
+        <li href="#">Proyectos</li>
+        <li href="#">Contacto</li>
+    </ul>
+
+    <section id="articulos">
+
+        <article class="entrada">
+            <h3>Introducción a CSS</h3>
+            <p class="fecha">Publicado: 12 de enero de 2026</p>
+            <p>CSS (Cascading Style Sheets) es el lenguaje que nos permite dar estilo y diseño a nuestras páginas web.
+                Mientras HTML estructura el contenido, CSS se encarga de la presentación visual.</p>
+            <p>En este artículo veremos los conceptos básicos de CSS, cómo enlazar hojas de estilo y los selectores más
+                comunes que utilizaremos en nuestros proyectos.</p>
+            <p>Aprender CSS es fundamental para cualquier desarrollador web, ya que nos permite crear interfaces
+                atractivas y profesionales.</p>
+            <a href="#">Leer más...</a>
+        </article>
+
+        <article class="entrada destacada">
+            <h3>Selectores en CSS</h3>
+            <p class="fecha">Publicado: 10 de enero de 2026</p>
+            <p>Los selectores son una de las partes más importantes de CSS. Nos permiten identificar qué elementos HTML
+                queremos modificar y aplicarles estilos específicos.</p>
+            <p>Existen diferentes tipos de selectores: de tipo, de clase, de ID, combinados y avanzados. Cada uno tiene
+                sus propias características y casos de uso.</p>
+            <p>Dominar los selectores nos dará un control total sobre el diseño de nuestras páginas web y nos permitirá
+                crear estilos mucho más eficientes y mantenibles.</p>
+            <a href="#">Leer más...</a>
+        </article>
+
+        <article class="entrada">
+            <h3>Mi primer proyecto web</h3>
+            <p class="fecha">Publicado: 8 de enero de 2026</p>
+            <p>Hoy quiero compartir con vosotros mi primer proyecto web completo. Se trata de una página personal donde
+                pongo en práctica todo lo aprendido sobre HTML y CSS.</p>
+            <p>El proyecto incluye una estructura semántica correcta, estilos externos organizados en hojas de estilo, y
+                un diseño responsive que se adapta a diferentes dispositivos.</p>
+            <p>Ha sido un reto interesante y he aprendido muchísimo en el proceso. Os animo a crear vuestros propios
+                proyectos para practicar.</p>
+            <a href="#">Leer más...</a>
+        </article>
+
+    </section>
+
+    <footer id="pie">
+        <p>Noelia Ana Chabiri - © 2026 - Blog de Desarrollo Web</p>
+    </footer>
+
+
+
+</body>
+
+</html>
