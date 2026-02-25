@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Codificación de caracteres: UTF-8 soporta acentos y ñ -->
+    <meta charset="UTF-8">
+
+    <!--Metadatos que emulan cabeceras HTTP -->
+    <meta http-equiv="Cache-Control" content="no-cache"> <!-- Evita que el navegador guarde la página en caché -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- Tipo de contenido y codificación -->
+    <meta http-equiv="Refresh" content="30"> <!-- Recarga la página automáticamente cada 30 segundos -->
+
+    <!--Metadatos sobre la página -->
+    <meta name="description" content="Página de ejemplo de HTML con metadatos."> <!-- Descripción para buscadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace la página responsive -->
+    <meta name="author" content="Noelia Ana Chabiri"> <!-- Autor de la página -->
+    <meta name="robots" content="index, follow"> <!-- Permite que buscadores indexen y sigan los enlaces -->
+
+    <!--Título de la página -->
+    <title>JavaScript-Ejemplos</title> <!-- Texto que aparece en la pestaña del navegador -->
+
+</head>
+<body>
+    <!--Contenido de la página -->
+    <h1>Calculadora de IVA (consola)</h1>
+
+
+    <script>
+        //Números
+        let numeroBase=100;
+        let importeIva=21;
+        let precioFinal=0;
+
+        //Cálculo
+        precioFinal=((numeroBase*importeIva)/100)+numeroBase;
+
+        //Mostrar por consola
+        console.log("Precio base:", numeroBase, "€"); 
+        console.log("Importe IVA:", importeIva, "%"); 
+        console.log("Precio Final:", precioFinal, "€"); 
+
+
+
+
+    </script>
+    
+</body>
+</html>
