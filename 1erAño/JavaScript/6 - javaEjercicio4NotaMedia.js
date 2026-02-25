@@ -1,14 +1,21 @@
 
+//Números
+let primeraNota;
+let segundaNota;
+let notaMedia;
+
 // String
 let nombre= prompt("Introduce tu nombre");
+
+// Boolean
 let resultado;
 
-// numeros
-let primeraNota= parseFloat(prompt("Introduce primer nota"));
-let segundaNota= parseFloat(prompt("Introduce segunda nota"));
-let notaMedia=(primeraNota+segundaNota)/2;;
+// Usuario
+primeraNota= parseFloat(prompt("Introduce primer nota"));
+segundaNota= parseFloat(prompt("Introduce segunda nota"));
 
 //Cálculos
+notaMedia=(primeraNota+segundaNota)/2;;
 resultado= (notaMedia>= 5);
 
 //Muestras
